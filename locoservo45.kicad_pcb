@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 45)
+    (drawings 47)
     (tracks 121)
     (zones 0)
     (modules 21)
@@ -87,7 +87,7 @@
       (plotvalue true)
       (plotinvisibletext false)
       (padsonsilk false)
-      (subtractmaskfromsilk false)
+      (subtractmaskfromsilk true)
       (outputformat 1)
       (mirror false)
       (drillshape 0)
@@ -1537,6 +1537,8 @@
     )
   )
 
+  (gr_poly (pts (xy 187.325 132.715) (xy 187.325 90.17) (xy 193.04 90.17) (xy 193.04 132.715)) (layer F.Mask) (width 0.15))
+  (gr_poly (pts (xy 92.075 132.715) (xy 92.075 90.17) (xy 85.725 90.17) (xy 85.725 132.715)) (layer F.Mask) (width 0.15))
   (gr_line (start 92.075 132.715) (end 92.075 90.17) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 187.325 132.715) (end 92.075 132.715) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 187.325 90.17) (end 187.325 132.715) (layer Edge.Cuts) (width 0.15))
